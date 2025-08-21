@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+:root{
+    --primary: #1C95B0;
+    --primary-light: #f6fbfc;
+    --text-color: #828282;
+    --head-color: #1f1f1f;
+    --border-color: rgba(229, 231, 242, 0.85);
+    --white-color: #fff;
+    --small-radius: 5px;
+    --medium-radius: 10px;
+}
+@layer components {
+  .darkbtn {
+    @apply px-3 py-1 font-bold transition duration-200;
+    border-radius: var(--medium-radius);
+    color: var(--white-color);
+    background-color: var(--primary);
+  }
+  .borderbtn {
+    @apply px-3 py-1 font-bold transition duration-200;
+    border-radius: var(--medium-radius);
+    color: var(--primary);
+    background-color: var(--primary-light);
+    border: 1px solid var(--primary);
+  }
+  .sub-heading{
+    @apply font-[600] text-center text-3xl capitalize 
+  }
+  .ptb60{
+    @apply py-14
+  }
+  .pt60{
+    @apply pt-14
+  }
+  .pb60{
+    @apply pb-14
+  }
+}
