@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-  font-family: "Open Sans", sans-serif;
+  font-family: "TASA Explorer", sans-serif;
 }
 :root{
     --primary: #1C95B0;
@@ -15,13 +15,13 @@ body{
 }
 @layer components {
   .darkbtn {
-    @apply px-3 py-1 font-bold transition duration-200;
+    @apply px-3 py-1 font-medium text-base transition duration-200;
     border-radius: var(--medium-radius);
     color: var(--white-color);
     background-color: var(--primary);
   }
   .borderbtn {
-    @apply px-3 py-1 font-bold transition duration-200;
+    @apply px-3 py-1 font-medium text-base transition duration-200;
     border-radius: var(--medium-radius);
     color: var(--primary);
     background-color: var(--primary-light);

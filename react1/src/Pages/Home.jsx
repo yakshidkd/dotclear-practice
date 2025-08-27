@@ -12,7 +12,7 @@ const Home = () => {
       <div className="say-hello px-48 pt-20">
         <div className="container">
           <div className='flex items-center justify-center flex-col'>
-            <h1 className='text-4xl capitalize font-[600] text-center'>Say hello to accountant-less accounting <br/> Transforming Accounting with Automation</h1>
+            <h1 className='text-[45px] capitalize font-medium text-center'>Say hello to accountant-less accounting <br/> Transforming Accounting with Automation</h1>
             <p className='py-4 font-medium text-[17px]'>Navigate the complex world of Accounting and regulatory Compliance like a pro</p>
             <div className='flex gap-x-3 mt-4'>
               <button className='darkbtn text-sm py-2 px-4'>Contact us <WestSharpIcon className='text-sm'/></button>
