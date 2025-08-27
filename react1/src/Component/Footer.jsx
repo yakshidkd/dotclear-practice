@@ -24,6 +24,7 @@ const Footer = () => {
                 {QuickLinks.map((item, id)=>(
                   <li key={id}>
                     <a href={item.path}>{item.name}</a>
+                    <h6>Hello Footer</h6>
                   </li>
                 ))}
               </ul>
